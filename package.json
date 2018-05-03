@@ -1,0 +1,26 @@
+{
+  "name": "@ali/umi-plugin-sofa",
+  "version": "0.1.0",
+  "description": "umi love sofa.",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.alipay-inc.com/umijs/umi-plugin-sofa"
+  },
+  "homepage": "http://gitlab.alipay-inc.com/umijs/umi-plugin-sofa",
+  "bugs": {
+    "url": "http://gitlab.alipay-inc.com/umijs/umi-plugin-sofa/issues"
+  },
+  "authors": [
+    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "fs-extra": "^6.0.0"
+  }
+}
