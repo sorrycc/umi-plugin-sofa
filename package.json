@@ -21,6 +21,7 @@
     "index.js"
   ],
   "dependencies": {
+    "assert": "^1.4.1",
     "fs-extra": "^6.0.0"
   }
 }
