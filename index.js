@@ -3,14 +3,14 @@ const { copySync } = require('fs-extra');
 const { join } = require('path');
 
 module.exports = function (api, opts = {}) {
-  const { cwd } = api.service;
+  const { cwd } = api;
   const copyTo = opts.copyTo || ['../webroot/view/home/screen/umi.vm'];
   assert(
     Array.isArray(copyTo),
     `[umi-plugin-sofa] opts.copyTo must be Array, but got ${copyTo}`,
   );
 
-  api.register('buildSuccess', function () {
+  api.onBuildSuccess(() => {
     copyTo.forEach((to) => {
       copySync(
         join(cwd, 'dist/index.html'),
