@@ -19,9 +19,9 @@ module.exports = function (api, opts = {}) {
       console.log(`[umi-plugin-sofa] Copy dist/index.html to ${to}`);
     });
     copySync(
-      join(cwd, 'dist/static'),
+      join(cwd, 'dist'),
       join(cwd, '../webroot/public/static'),
     );
-    console.log('[umi-plugin-sofa] Copy dist/static to ../webroot/public/static');
+    console.log('[umi-plugin-sofa] Copy dist to ../webroot/public/static');
   });
 };
