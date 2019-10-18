@@ -1,27 +1,27 @@
-# @ali/umi-plugin-sofa
+# umi-plugin-sofa
 
-## Ê¹ÓÃ
+## ä½¿ç”¨
 
-ÏÈ°²×°ÒÀÀµ£¬
+å…ˆå®‰è£…ä¾èµ–ï¼Œ
 
 ```bash
-$ tnpm i @ali/umi-plugin-sofa -D
+$ npm i umi-plugin-sofa -D
 ```
 
-±à¼­ `.umirc.js`£¬
+ç¼–è¾‘ `.umirc.js`ï¼Œ
 
 ```js
 export default {
-  plugins: ['@ali/umi-plugin-sofa'],
+  plugins: ['umi-plugin-sofa'],
 };
 ```
 
-Èç¹ûÒªÅäÖÃ copyTo ²ÎÊı£¬¿ÉÒÔÕâÑù£º
+å¦‚æœè¦é…ç½® copyTo å‚æ•°ï¼Œå¯ä»¥è¿™æ ·ï¼š
 
 ```js
 export default {
   plugins: [
-    ['@ali/umi-plugin-sofa', {
+    ['umi-plugin-sofa', {
       copyTo: [
         '../webroot/view/home/screen/umi.vm',
         '../webroot/view/merchant/screen/umi.vm',
@@ -31,10 +31,10 @@ export default {
 };
 ```
 
-Ä¬ÈÏµÄ copyTo ÊÇ `['../webroot/view/home/screen/umi.vm']`¡£
+é»˜è®¤çš„ copyTo æ˜¯ `['../webroot/view/home/screen/umi.vm']`ã€‚
 
-## ²Î¿¼
+## å‚è€ƒ
 
-* [¸ø ifccustmng µÄ MR](http://gitlab.alipay-inc.com/alipayplus_ph_release/ifccustmng/merge_requests/8)
-* [umi ²¿Êğ Sofa Ó¦ÓÃ£¨¼¯³ÉÊ½£©](https://lark.alipay.com/umijs/umi/deploy-sofa-application-integrated)
+* [ç»™ ifccustmng çš„ MR](http://gitlab.alipay-inc.com/alipayplus_ph_release/ifccustmng/merge_requests/8)
+* [umi éƒ¨ç½² Sofa åº”ç”¨ï¼ˆé›†æˆå¼ï¼‰](https://lark.alipay.com/umijs/umi/deploy-sofa-application-integrated)
 
