@@ -33,8 +33,4 @@ export default {
 
 默认的 copyTo 是 `['../webroot/view/home/screen/umi.vm']`。
 
-## 参考
-
-* [给 ifccustmng 的 MR](http://gitlab.alipay-inc.com/alipayplus_ph_release/ifccustmng/merge_requests/8)
-* [umi 部署 Sofa 应用（集成式）](https://lark.alipay.com/umijs/umi/deploy-sofa-application-integrated)
 
