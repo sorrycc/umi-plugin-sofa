@@ -22,6 +22,6 @@
     "fs-extra": "^6.0.0"
   },
   "peerDependencies": {
-    "umi": "2.x"
+    "umi": "1.x"
   }
 }
